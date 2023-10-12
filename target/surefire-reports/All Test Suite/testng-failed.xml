@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="14" parallel="methods" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="14" parallel="methods" name="C:/Akshay Kumar TFT Java/PracticeAllProjects/src/test/java(failed)" verbose="0">
+    <classes>
+      <class name="FirstEvalution.Day3_TestNG.AnnotaionsWithBrowser">
+        <methods>
+          <include name="facebookLoginVerify"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="CreateNewAccountBtnVerify"/>
+        </methods>
+      </class> <!-- FirstEvalution.Day3_TestNG.AnnotaionsWithBrowser -->
+      <class name="FirstEvalution.Day5.ParallelBrowsersTest">
+        <methods>
+          <include name="FirefoxTest"/>
+          <include name="ChromeTest"/>
+        </methods>
+      </class> <!-- FirstEvalution.Day5.ParallelBrowsersTest -->
+      <class name="FirstEvalution.Day5.firefoxBrowser">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- FirstEvalution.Day5.firefoxBrowser -->
+      <class name="FirstEvalution.Day1_Java_basics.LocaterstestDemo">
+        <methods>
+          <include name="testverify"/>
+        </methods>
+      </class> <!-- FirstEvalution.Day1_Java_basics.LocaterstestDemo -->
+      <class name="FirstEvalution.day4.POM_with_pageFactory.Login_TestCase">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- FirstEvalution.day4.POM_with_pageFactory.Login_TestCase -->
+      <class name="FirstEvalution.day4.POM_Without_Pagefactory.verify_pom_without_pagefactory">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- FirstEvalution.day4.POM_Without_Pagefactory.verify_pom_without_pagefactory -->
+    </classes>
+  </test> <!-- C:/Akshay Kumar TFT Java/PracticeAllProjects/src/test/java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
